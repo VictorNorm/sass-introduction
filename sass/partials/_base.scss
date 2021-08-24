@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle at center, map-get($colors, grey), map-get($colors, beige));
+    margin: 0;
+    font-family: $font-primary;
+}
