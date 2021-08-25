@@ -1,6 +1,39 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: getColor(primary)
+    background: getColor(primary);
+
+    .nav__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        font-size: 1.6em;
+        font-family: $font-primary;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        margin: 0px 10px;
+    }
+
+
+    a.active {
+        background: lighten(getColor(primary), 10%);
+        padding: 0.4em;
+        border-radius: 5px;
+    }
+
+
 }

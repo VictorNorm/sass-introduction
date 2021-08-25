@@ -1,4 +1,13 @@
 @import "partials/variables";
 @import "partials/base";
 @import "partials/nav";
+@import "partials/forms";
+@import "partials/buttons";
 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+}
